@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <title>Carrito de compras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+</head>
+
+<body>
+    <header id="header">
+
+        <nav>
+            <ul>
+                <li>
+                    <a class="menu" href="./index.html">Tienda</a>
+                </li>
+    
+                <li>
+                    <a class="menu" href="./sections/cocteles.html">Cocktail Random</a>
+                </li>
+    
+                <li>
+                    <a class="menu" href="./admin/admin.html">Cargar Productos</a>
+                </li>
+    
+            </ul>
+        </nav>
+
+        <div>
+            <img id="carrito" class="carrito" src="./img/carrito-de-compras.png" alt="">
+            <div id="numero"></div>
+        </div>
+    </header>
+
+    <h1>Tienda</h1>
+
+    <main>
+        <div id="contenedor" class="contenedor"> </div>
+    </main>
+    
+    <div id="contenedorCompra">
+        
+        <div class="informacionCompra" id="informacionCompra">
+            <h2>Cesta</h2>
+            <p class="x" id="x">x</p>
+        </div>
+
+        <div class="productosCompra" id="productosCompra"></div>
+        <div class="total" id="total"></div>
+        <button>Finalizar Compra</button>
+    </div>
+
+    <script src="./js/main.js"></script>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+
+</html>
